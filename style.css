@@ -1,0 +1,115 @@
+.car1 {
+    background-image: url("resource/1.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Fred";
+    src: url("font/FredokaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Quick";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+body {
+    margin: 0px;
+}
+
+.body1 {
+    overflow: hidden;
+}
+
+.body2 {
+    overflow-x: hidden;
+}
+
+.chart {
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+@media only screen and (min-width: 600px) {
+    .chart {
+        max-width: 100%;
+        /* margin-left: 5%; */
+    }
+}
+
+* {
+    font-family: "Quick";
+}
+
+.see {
+    cursor: pointer;
+}
+
+.toad {
+    margin-top: 80px;
+}
+
+.background1 {
+    background-image: url("pic/16.JPG");
+    animation-name: y;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@media (min-width: 576px) {
+    .background1 {
+        background-image: url("pic/16.JPG");
+        animation-name: y;
+    }
+}
+
+@media (min-width: 768px) {
+    .background1 {
+        background-image: url("pic/16.JPG");
+        animation-name: y;
+    }
+}
+
+@media (min-width: 992px) {
+    .background1 {
+        background-size: contain;
+        background-image: url("resource/pic333.png");
+        animation-name: x;
+    }
+}
+
+.invoiceHeaderImage {
+    height: 80px;
+    background-image: url("resource/icon.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@keyframes x {
+    0% {
+        background-image: url("resource/pic4444.png");
+    }
+    50% {
+        background-image: url("resource/pic666.png");
+    }
+    80% {
+        background-image: url("resource/pic5555.png");
+    }
+}
+
+@keyframes y {
+    0% {
+        background-image: url("pic/4.JPG");
+    }
+    50% {
+        background-image: url("pic/6.PNG");
+    }
+    80% {
+        background-image: url("pic/17.JPG");
+    }
+}
